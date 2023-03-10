@@ -1,154 +1,99 @@
-import tourImg01 from "../images/tour-img01.jpg";
-import tourImg02 from "../images/tour-img02.jpg";
-import tourImg03 from "../images/tour-img03.jpg";
-import tourImg04 from "../images/tour-img04.jpg";
-import tourImg05 from "../images/tour-img05.jpg";
-import tourImg06 from "../images/tour-img06.jpg";
-import tourImg07 from "../images/tour-img07.jpg";
+import blogImg1 from "../images/blog-img1.jpg";
+import blogImg2 from "../images/blog-img2.jpg"
+import blogImg3 from "../images/blog-img3.jpg";
+import blogImg4 from "../images/blog-img4.jpg";
+import blogImg5 from "../images/blog-img5.jpg";
+import blogImg6 from "../images/blog-img6.jpg";
 
 const blogs = [
   {
     id: "01",
-    title: "Westminister Bridge",
-    city: "London",
-    distance: 300,
-    price: 99,
-    maxGroupSize: 10,
-    desc: "this is the description",
+    title: "Eiffel Tower",
+    city: "France",
+    maxGroupSize: 2,
+    description: "This is the blog's description.",
     reviews: [
       {
-        name: "jhon doe",
-        rating: 4.6,
+        name: "charles doe",
+        rating: 4.2,
       },
     ],
-    avgRating: 4.5,
-    photo: tourImg01,
+    photo: blogImg1,
     featured: true,
   },
   {
     id: "02",
-    title: "Bali, Indonesia",
-    city: "Indonesia",
-    distance: 400,
-    price: 99,
+    title: "Köln by Night",
+    city: "Germany",
     maxGroupSize: 8,
-    desc: "this is the description",
+    description: "This is the blog's description.",
     reviews: [
       {
-        name: "jhon doe",
-        rating: 4.6,
+        name: "charles doe",
+        rating: 4.2,
       },
     ],
-    avgRating: 4.5,
-    photo: tourImg02,
+    photo: blogImg2,
     featured: true,
   },
   {
     id: "03",
-    title: "Snowy Mountains, Thailand",
-    city: "Thailand",
-    distance: 500,
-    price: 99,
-    maxGroupSize: 8,
-    desc: "this is the description",
+    title: "Ceremony of Graduation",
+    city: "London",
+    maxGroupSize: 557,
+    description: "This is the blog's description.",
     reviews: [
       {
-        name: "jhon doe",
-        rating: 4.6,
+        name: "charles doe",
+        rating: 4.2
       },
     ],
-    avgRating: 4.5,
-    photo: tourImg03,
+    photo: blogImg3,
     featured: true,
   },
   {
     id: "04",
-    title: "Beautiful Sunrise, Thailand",
-    city: "Thailand",
-    distance: 500,
-    price: 99,
-    maxGroupSize: 8,
-    desc: "this is the description",
+    title: "Home Decor",
+    city: "Hometown, Kosovo",
+    maxGroupSize: 6,
+    description: "This is the blog's description.",
     reviews: [
       {
-        name: "jhon doe",
-        rating: 4.6,
+        name: "charles doe",
+        rating: 4.2,
       },
     ],
-    avgRating: 4.5,
-    photo: tourImg04,
+    photo: blogImg4,
     featured: true,
   },
   {
     id: "05",
-    title: "Nusa Pendia Bali, Indonesia",
-    city: "Indonesia",
-    distance: 500,
-    price: 99,
-    maxGroupSize: 8,
-    desc: "this is the description",
+    title: "Inspiration",
+    city: "Everywhere",
+    maxGroupSize: 0,
+    description: "This is the blog's description.",
     reviews: [
       {
-        name: "jhon doe",
-        rating: 4.6,
+        name: "charles doe",
+        rating: 4.2,
       },
     ],
-    avgRating: 4.5,
-    photo: tourImg05,
+    photo: blogImg5,
     featured: false,
   },
   {
     id: "06",
-    title: "Cherry Blossoms Spring",
-    city: "Japan",
-    distance: 500,
-    price: 99,
+    title: "Westminister Bridge",
+    city: "London",
     maxGroupSize: 8,
-    desc: "this is the description",
+    description: "This is the blog's description.",
     reviews: [
       {
-        name: "jhon doe",
+        name: "charles doe",
         rating: 4.6,
       },
     ],
-    avgRating: 4.5,
-    photo: tourImg06,
-    featured: false,
-  },
-  {
-    id: "07",
-    title: "Holmen Lofoten",
-    city: "France",
-    distance: 500,
-    price: 99,
-    maxGroupSize: 8,
-    desc: "this is the description",
-    reviews: [
-      {
-        name: "jhon doe",
-        rating: 4.6,
-      },
-    ],
-    avgRating: 4.5,
-    photo: tourImg07,
-    featured: false,
-  },
-  {
-    id: "08",
-    title: "Snowy Mountains, Thailand",
-    city: "Thailand",
-    distance: 500,
-    price: 99,
-    maxGroupSize: 8,
-    desc: "this is the description",
-    reviews: [
-      {
-        name: "jhon doe",
-        rating: 4.6,
-      },
-    ],
-    avgRating: 4.5,
-    photo: tourImg03,
+    photo: blogImg6,
     featured: false,
   },
 ];

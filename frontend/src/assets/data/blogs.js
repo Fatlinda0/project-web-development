@@ -1,9 +1,11 @@
-import blogImg1 from "../images/blog-img1.jpg";
+import blogImg1 from "../images/blog-img1.jpg"
 import blogImg2 from "../images/blog-img2.jpg"
-import blogImg3 from "../images/blog-img3.jpg";
-import blogImg4 from "../images/blog-img4.jpg";
-import blogImg5 from "../images/blog-img5.jpg";
-import blogImg6 from "../images/blog-img6.jpg";
+import blogImg3 from "../images/blog-img3.jpg"
+import blogImg4 from "../images/blog-img4.jpg"
+import blogImg5 from "../images/blog-img5.jpg"
+import blogImg6 from "../images/blog-img6.jpg"
+import blogImg7 from '../images/blog-img7.jpg'
+import blogImg8 from '../images/blog-img8.jpg'
 
 const blogs = [
   {
@@ -18,6 +20,7 @@ const blogs = [
         rating: 4.2,
       },
     ],
+    avgRating: 4.5,
     photo: blogImg1,
     featured: true,
   },
@@ -33,6 +36,7 @@ const blogs = [
         rating: 4.2,
       },
     ],
+    avgRating: 4.5,
     photo: blogImg2,
     featured: true,
   },
@@ -48,6 +52,7 @@ const blogs = [
         rating: 4.2
       },
     ],
+    avgRating: 4.5,
     photo: blogImg3,
     featured: true,
   },
@@ -63,6 +68,7 @@ const blogs = [
         rating: 4.2,
       },
     ],
+    avgRating: 4.5,
     photo: blogImg4,
     featured: true,
   },
@@ -70,14 +76,10 @@ const blogs = [
     id: "05",
     title: "Inspiration",
     city: "Everywhere",
-    maxGroupSize: 0,
+    maxGroupSize: 1861,
     description: "This is the blog's description.",
-    reviews: [
-      {
-        name: "charles doe",
-        rating: 4.2,
-      },
-    ],
+    reviews: [],
+    avgRating: 4.5,
     photo: blogImg5,
     featured: false,
   },
@@ -85,7 +87,7 @@ const blogs = [
     id: "06",
     title: "Westminister Bridge",
     city: "London",
-    maxGroupSize: 8,
+    maxGroupSize: 11,
     description: "This is the blog's description.",
     reviews: [
       {
@@ -93,7 +95,39 @@ const blogs = [
         rating: 4.6,
       },
     ],
+    avgRating: 4.5,
     photo: blogImg6,
+    featured: false,
+  },
+  {
+    id: "07",
+    title: "Don't stop working",
+    city: "Everywhere",
+    maxGroupSize: 261,
+    description: "This is the blog's description.",
+    reviews: [
+      {
+        name: "charles doe",
+        rating: 4.6,
+      },
+      {
+        name: "monica evans",
+        rating: 4.6,
+      },
+    ],
+    avgRating: 4.5,
+    photo: blogImg7,
+    featured: false,
+  },
+  {
+    id: "08",
+    title: "Best Friends Vacation",
+    city: "Nature",
+    maxGroupSize: 11,
+    description: "This is the blog's description.",
+    reviews: [],
+    avgRating: 4.5,
+    photo: blogImg8,
     featured: false,
   },
 ];

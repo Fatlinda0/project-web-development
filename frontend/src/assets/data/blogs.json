@@ -38,11 +38,11 @@
   
     "photo": "/blog-images/blog-img4.jpg",
     "featured": true
-  }
+  },
   {
     "title": "Inspiration",
     "city": "Everywhere",
-    "maxGroupSize": 0,
+    "maxGroupSize": null,
     "description": "This is the blog's description.",
     "reviews": [],
   
@@ -52,12 +52,31 @@
   {
     "title": "Westminister Bridge",
     "city": "London",
-    "maxGroupSize": 10,
-    "desc": "This is the blog's description.",
+    "maxGroupSize": 11,
+    "description": "This is the blog's description.",
     "reviews": [],
 
     "photo": "/blog-images/blog-img6.jpg",
     "featured": true
+  },
+  {
+    "title": "Don't stop working",
+    "city": "Everywhere",
+    "maxGroupSize": null,
+    "description": "This is the blog's description.",
+    "reviews": [],
+
+    "photo": "/blog-images/blog-img7.jpg",
+    "featured": false
+  },
+  {
+    "title": "Best Friends Vacation",
+    "city": "Nature",
+    "maxGroupSize": 11,
+    "description": "This is the blog's description.",
+    "reviews": [],
+    "photo": "./blog-images/blog-img8.jpg",
+    "featured": false
   },
   {
     "title": "Tokyo",
@@ -66,7 +85,7 @@
     "description": "This is the blog's description.",
     "reviews": [],
   
-    "photo": "/blog-images/blog-img7.jpg",
+    "photo": "/blog-images/blog-img9.jpg",
     "featured": true
   }
 ]

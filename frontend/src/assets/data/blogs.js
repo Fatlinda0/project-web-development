@@ -16,7 +16,7 @@ const blogs = [
     description: "This is the blog's description.",
     reviews: [
       {
-        name: "charles doe",
+        name: "Monika Evans",
         rating: 4.2,
       },
     ],
@@ -32,7 +32,7 @@ const blogs = [
     description: "This is the blog's description.",
     reviews: [
       {
-        name: "charles doe",
+        name: "Monika Evans",
         rating: 4.2,
       },
     ],
@@ -48,7 +48,7 @@ const blogs = [
     description: "This is the blog's description.",
     reviews: [
       {
-        name: "charles doe",
+        name: "Monika Evans",
         rating: 4.2
       },
     ],
@@ -64,7 +64,7 @@ const blogs = [
     description: "This is the blog's description.",
     reviews: [
       {
-        name: "charles doe",
+        name: "Monika Evans",
         rating: 4.2,
       },
     ],
@@ -91,7 +91,7 @@ const blogs = [
     description: "This is the blog's description.",
     reviews: [
       {
-        name: "charles doe",
+        name: "Monika Evans",
         rating: 4.6,
       },
     ],
@@ -107,11 +107,11 @@ const blogs = [
     description: "This is the blog's description.",
     reviews: [
       {
-        name: "charles doe",
+        name: "Monika Evans",
         rating: 4.6,
       },
       {
-        name: "monica evans",
+        name: "Charles Doe",
         rating: 4.6,
       },
     ],

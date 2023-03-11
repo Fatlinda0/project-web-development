@@ -11,6 +11,8 @@ import experienceImg from '../assets/images/experience.png'
 import SearchBar from '../shared/SearchBar'
 import ServiceList from '../services/ServiceList'
 import FeaturedBlogList from '../components/Featured-blogs/FeaturedBlogList'
+import MasonryImagesGallery from '../components/image-gallery/MasonryImagesGallery'
+import Testimonials from '../components/Testimonial/Testimonials'
 
 const Home = () => {
   return <>
@@ -86,7 +88,7 @@ const Home = () => {
             <div className="experience__content">
               <h5 className="services__subtitle">Experience</h5>
               <h2>
-                We'll provide you with life guidance <br /> based on all of our experience
+                We'll provide you with life guidance based on all <br /> of our experience
               </h2>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 <br /> 
@@ -118,6 +120,37 @@ const Home = () => {
     </section>
     { /* ------ experience section end  ----- */ }
 
+    { /* ------ gallery section start  ----- */ }
+    <section>
+      <Container>
+        <Row>
+          <Col lg='12'>
+            <h5 className="services__subtitle">Gallery</h5>
+            <h2 className="gallery__title">Go through our travel gallery</h2>
+          </Col>
+          <Col lg='12'>
+            <MasonryImagesGallery/>
+          </Col>
+        </Row>
+      </Container>
+    </section>
+    { /* ---- gallery section end ----- */ }
+
+    { /* ---- testimonial section start ----- */ }
+    <section>
+      <Container>
+        <Row>
+          <Col lg='12'>
+            <h5 className="services__subtitle">Fans Love</h5>
+            <h2 className="testimonial__title">What our fans say about us</h2>
+          </Col>
+          <Col lg='12'>
+            <Testimonials />
+          </Col>
+        </Row>
+      </Container>
+    </section>
+    { /* ---- testimonial section end ----- */ }
   </>
 }
 

@@ -5,7 +5,6 @@ import { Container, Row, Col } from 'reactstrap'
 import heroineImg1 from '../assets/images/heroine-img1.jpg'
 import heroineImg2 from '../assets/images/heroine-img2.jpg'
 import heroVideo from '../assets/images/hero-video.mp4'
-import worldImg from '../assets/images/world.png'
 import experienceImg from '../assets/images/experience.png'
 
 import SearchBar from '../shared/SearchBar'
@@ -13,6 +12,7 @@ import ServiceList from '../services/ServiceList'
 import FeaturedBlogList from '../components/Featured-blogs/FeaturedBlogList'
 import MasonryImagesGallery from '../components/image-gallery/MasonryImagesGallery'
 import Testimonials from '../components/Testimonial/Testimonials'
+import Blognews from '../shared/Blognews'
 
 const Home = () => {
   return <>
@@ -21,9 +21,6 @@ const Home = () => {
         <Row>
           <Col lg='6'>
             <div className="heroine__content">
-              <div className="heroine__subtitle d-flex align-items-center">
-                <img src={worldImg} alt="" />
-              </div>
               <h1>Blogging helps you to share your 
                 <span className='highlight'> thoughts</span>
               </h1>
@@ -151,6 +148,8 @@ const Home = () => {
       </Container>
     </section>
     { /* ---- testimonial section end ----- */ }
+    <Blognews />
+
   </>
 }
 

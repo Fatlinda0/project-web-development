@@ -1,16 +1,34 @@
 
 
-import React from 'react'
+import React, {useState}from 'react'
 import './booking.css'
 import {Form, FormGroup, ListGroup, ListGroupItem, Button} from "reactstrap";
 
 
 
 export const Booking = ({blog}) => {
-    const {maxGroupSize,reviews}= blog
+    const {maxGroupSize,reviews}= blog;
 
- const handleChange=e=>{};
 
+    const[credentials, setCredentials]= useState({
+        userId:'01',
+        userEmail:'example@gmail.com',
+        fullName:'',
+        phone:'',
+        guestSize:'',
+        bookAt:''
+
+    })
+
+ const handleChange=e=>{
+    setCredentials=(prev=>({...prev, [e.target.id]:e.target.value}))
+ };
+
+ const handleClick = e =>{
+    e.preventDefaul()
+
+    console.log(credentials);
+ }
 
   return (
     <div className='Booking'>
@@ -31,6 +49,25 @@ export const Booking = ({blog}) => {
             </FormGroup>
 
         </Form>
+    </div>
+    {/*Bookin boottom */}
+    <div className="booking__bottom">
+        <ListGroup>
+            <ListGroupItem className='border-opx-0'>
+                <h5 className='d-flex align-itemss-center gap-1'>
+                    {maxGroupSize} <i class="ri-close-line"></i></h5>
+                <span>{maxGroupSize}</span>
+            </ListGroupItem>
+            <ListGroupItem className='border-opx-0'>
+                <h5>Service</h5>
+                <span>10$</span>
+            </ListGroupItem>
+            <ListGroupItem className='border-opx-0 px-0 total'>
+                <h5>Total</h5>
+                <span>109$</span>
+            </ListGroupItem>
+        </ListGroup>
+        <Button className='btn primary__btn w-100mt-4' onClick={handleClick} >Book Now</Button>
     </div>
     </div>
   )
